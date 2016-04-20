@@ -8,7 +8,7 @@ const path       = require('path');
 const source     = require("vinyl-source-stream");
 
 const paths = {
-  es6: ['app/**/*.js']
+  es6: ['app/**/*.js', 'app/index.module.js']
 }
 
 // babelify
