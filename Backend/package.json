@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node index.js",
+    "start": "NODE_ENV=production forever start index.js",
     "test": "mocha **/*.spec.js"
   },
   "author": "ellis",
@@ -12,6 +12,7 @@
   "dependencies": {
     "chai-http": "2.0.1",
     "express": "4.13.4",
+    "forever": "0.15.1",
     "pg": "4.5.3"
   },
   "devDependencies": {
