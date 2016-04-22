@@ -5,7 +5,7 @@
  */
 const express = require('express');
 const app     = express();
-const port    = 3000;
+const port    = 3010;
 
 /**
  * Imported routes.
@@ -15,12 +15,12 @@ const users   = require('./app/controllers/users/user-ctrl.js')(express.Router()
 // const   = require('.app/controllers/')
 
 /**
- * Mounted routes. 
+ * Mounted routes.
  */
 app.use('/users', users);
 
 /**
- * Server listening on variable port. 
+ * Server listening on variable port.
  */
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);

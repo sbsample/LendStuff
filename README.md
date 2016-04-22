@@ -8,3 +8,8 @@ ES6
 
 # Development
 Using a microservices approach </br>
+
+### Ports
+Backend APIs: 3000s
+Frontend:     4000s
+Databases:    5000s

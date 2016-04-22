@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production forever start index.js",
+    "start": "NODE_ENV=production nodemon index.js",
     "test": "mocha **/*.spec.js"
   },
   "author": "ellis",
@@ -13,6 +13,7 @@
     "chai-http": "2.0.1",
     "express": "4.13.4",
     "forever": "0.15.1",
+    "nodemon": "1.9.1",
     "pg": "4.5.3"
   },
   "devDependencies": {
