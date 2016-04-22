@@ -10,6 +10,6 @@ ES6
 Using a microservices approach </br>
 
 ### Ports
-Backend APIs: 3000s
-Frontend:     4000s
-Databases:    5000s
+Backend APIs: 3000s </br>
+Frontend:     4000s </br>
+Databases:    5000s </br>
