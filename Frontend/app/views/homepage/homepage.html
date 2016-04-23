@@ -2,12 +2,47 @@
 <html ng-app="lendStuff">
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="bundle.js"></script>
+    <script type="text/javascript" src="../bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="../bundle.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Kalam|Merienda|Berkshire+Swash|Poiret+One|Lobster|Comfortaa|Bangers|Abril+Fatface|Nixie+One|Black+Ops+One|Corben|Sansita+One|Unica+One|Monoton|Megrim|Tulpen+One|Raleway+Dots|Dynalight|Josefin+Slab|Playfair+Display+SC' rel='stylesheet' type='text/css'>
     <title></title>
   </head>
-  <body>
-    <div class="content" ng-controller="HomepageController">
-      {{name}}
+  <body ng-controller="HomepageController">
+    <!-- {{name}} -->
+
+    <div class="grid" ng-init="HomepageController.fuck()">
+      <div class="grid-item" id="logo">
+        <!-- LendIt -->
+        ShareSpace
+      </div>
+      <div class="grid-item">
+        <img src="/girl_guitar.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/surfboard.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/tools.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/vinyls_categorized.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/reading_on_bed.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/skirts.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/vinyls_dark.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/vinyls.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/hanging_clothes.jpeg"/>
+      </div>
     </div>
+
   </body>
 </html>

@@ -1,0 +1,20 @@
+body{
+  background-color: yellow;
+}
+
+#logo{
+  font-family: 'Pacifico';
+  /*font-family: 'Poiret One';*/
+  /*font-family: 'Bangers';*/
+  /*font-family: 'Sansita One';*/
+  /*font-family: 'Unica One';*/
+  /*font-family: 'Monoton';*/
+  font-size: 12em;
+  background-color: yellow;
+  /*position: absolute;*/
+  /*top: 1000px;*/
+  /*left: 100px;*/
+  /*top: 150px;*/
+}
+
+/*.grid-item { width: 30%; }*/
