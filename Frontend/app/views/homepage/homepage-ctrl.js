@@ -12,10 +12,6 @@ export default class HomepageController {
     });
   }
 
-  fuck(){
-    console.log('fuck')
-  }
-
   changeName() {
     $scope.name = 'angular-tips';
   }
