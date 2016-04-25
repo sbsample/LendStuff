@@ -1,5 +1,4 @@
 import Masonry from 'masonry-layout';
-// const fs = require('fs');
 
 export default class HomepageController {
   constructor($scope) {

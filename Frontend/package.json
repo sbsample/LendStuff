@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "angular": "1.5.5",
+    "angular-bootstrap-npm": "0.14.3",
     "angular-ui-router": "0.2.18",
     "masonry-layout": "4.0.0"
   },

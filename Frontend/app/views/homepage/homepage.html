@@ -3,21 +3,39 @@
   <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="../bundle.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../bundle.css">
     <link href='https://fonts.googleapis.com/css?family=Pacifico|Kalam|Merienda|Berkshire+Swash|Poiret+One|Lobster|Comfortaa|Bangers|Abril+Fatface|Nixie+One|Black+Ops+One|Corben|Sansita+One|Unica+One|Monoton|Megrim|Tulpen+One|Raleway+Dots|Dynalight|Josefin+Slab|Playfair+Display+SC' rel='stylesheet' type='text/css'>
     <title></title>
   </head>
   <body ng-controller="HomepageController">
-    <!-- {{name}} -->
 
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <div class="log-in-form navbar-right">
+            <form>
+              <fieldset class="form-group">
+                <input  type="text" name="fname" placeholder="Username">
+                <input  type="password" name="lname" placeholder="Password">
+                <input  type="submit" value="Log In">
+              </fieldset>
+              <div id="sign-up">
+                Dont have an account? <a href="#">Sign Up</a>
+              </div>
+            </form>
+          </div>
+      </div>
+    </nav>
     <div class="grid">
       <div class="grid-item" id="logo">
-        LendStuff
+        <!-- LendStuff -->
         <!-- LendIt -->
-        <!-- ShareSpace -->
+        ShareSpace
       </div>
       <div class="grid-item">
-        <img src="/girl_guitar.jpeg"/>
+        <img src="/vinyls_categorized.jpeg"/>
       </div>
       <div class="grid-item">
         <img src="/skirts.jpeg"/>
@@ -26,10 +44,13 @@
         <img src="/tools.jpeg"/>
       </div>
       <div class="grid-item">
-        <img src="/vinyls_categorized.jpeg"/>
+        <img src="/hanging_clothes.jpeg"/>
       </div>
       <div class="grid-item">
-        <img src="/hanging_clothes.jpeg"/>
+        <img src="/vinyls_dark.jpeg"/>
+      </div>
+      <div class="grid-item">
+        <img src="/girl_guitar.jpeg"/>
       </div>
       <div class="grid-item">
         <img src="/reading_on_bed.jpeg"/>
@@ -37,16 +58,6 @@
       <div class="grid-item">
         <img src="/surfboard.jpeg"/>
       </div>
-      <div class="grid-item">
-        <img src="/vinyls_dark.jpeg"/>
-      </div>
-      <div class="grid-item">
-        <img src="/playing_vinyl.jpeg"/>
-      </div>
-      <!-- <div class="grid-item">
-        <img src="/vinyls.jpeg"/>
-      </div> -->
     </div>
-
   </body>
 </html>
