@@ -23,14 +23,18 @@ router.get('/new', function(req, res){
 
   });
 
-  router.route('/:id');
-  put(function(req, res, next){
+  router.route('/:id')
+  .get(function(req, res, next){
 
-  });
+  })
+
+  .put(function(req, res, next){
+
+  })
 
   .delete(function(req, res, next){
 
-  });
+  })
 
 /**
  * Return router so that it can be used by express.
