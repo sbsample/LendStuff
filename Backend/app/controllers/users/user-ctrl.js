@@ -7,22 +7,33 @@ var User = require('../../models/user/user-model.js');
 
 module.exports = (router) => {
 
-router.get('/new', function(req, res){
-  res.send('hello mellow -- from Docker World')
+router.route('/')
+.get(function(req, res, next){
+  res.send("List of all users" )
 })
+
 /**
  * Create route accepts the following parameters:
  * email, username, password
  * Route is used for creating a new account.
  */
-  router.post('/create', (req, res) => {
-    User.insert(req.body)
-    res.send('cha ching')
-  });
+ router.post('/create', function(req, res) {
+   User.insert(req.body)
+ });
 
-  router.get('/:username', (req, res) => {
+  router.route('/:id')
+  .get(function(req, res, next){
 
-  });
+  })
+
+  .put(function(req, res, next){
+
+  })
+
+  .delete(function(req, res, next){
+
+  })
+
 /**
  * Return router so that it can be used by express.
  */
