@@ -1,21 +1,5 @@
-.navbar{
-    /*opacity: 0.3;*/
-    /*background-color: rgba(0.0, 0.0, 0.0, 0.0);*/
-    background-color: white;
-    border-color: white;
-}
 
-.log-in-form{
-    margin: 15px;
-}
-
-.log-in-form input{
-  line-height: 12px;
-}
-
-#sign-up{
-  text-align: left;
-}
+/*Logged Out*/
 
 #logo{
   font-family: 'Pacifico';
@@ -37,4 +21,54 @@
   width: 300px;
   height: auto;
   padding: 5px;
+}
+
+/*Logged In*/
+
+.avatar-container{
+  /*Development CSS*/
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: red;
+  /*Production CSS*/
+  margin-right: 10px;
+}
+
+.central-content{
+  /*Development CSS*/
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: red;
+  /*Production CSS*/
+  margin-right: 10px;
+}
+
+.search-bar{
+  /*Development CSS*/
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: red;
+  /*Production CSS*/
+  margin-bottom: 10px;
+}
+
+.newsfeed{
+  /*Development CSS*/
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: red;
+  /*Production CSS*/
+}
+
+.advertisements{
+  /*Development CSS*/
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: red;
+  /*Production CSS*/
 }
