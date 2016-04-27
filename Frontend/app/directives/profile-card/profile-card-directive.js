@@ -4,7 +4,7 @@ export function ProfilecardDirective(){
     restrict: 'E',
     replace: true,
     templateUrl: 'directives/profile-card/profile-card.html',
-    scope: false,
+    scope: {},
     controller: ProfilecardController,
     controllerAs: 'vm',
     bindToController: true
