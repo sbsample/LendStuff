@@ -1,29 +1,31 @@
 "use strict";
 
 /**
- * User routes.
+ * Property routes.
  */
 
 module.exports = (router) => {
 
-router.route('/')
-.get(function(req, res, next){
-  res.send("List of all users" )
+router.route("/")
+.get(function(res, req, next){
+  res.send('View All property')
+  // view all property
 })
 
 router.get('/new', function(req, res){
-    res.send('hello world -- from Docker World')
+    res.send('Create New Property Form')
 })
 /**
  * Create route accepts the following parameters:
- * email, username, password
- * Route is used for creating a new account.
+ * Title, description,
+ * Route is used for creating a new propery.
  */
   router.post('/create', function(req, res) {
-
+  // create new Property post route
   });
 
   router.route('/:id')
+
   .get(function(req, res, next){
 
   })
