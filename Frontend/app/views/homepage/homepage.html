@@ -1,6 +1,5 @@
-<sharespacenavbar></sharespacenavbar>
 
-<div ng-controller="HomepageController">
+<div ng-controller="HomepageController" ng-show="!vm.loggedIn">
   <div class="grid">
     <div class="grid-item" id="logo">
       ShareSpace
@@ -29,5 +28,29 @@
     <div class="grid-item">
       <img src="/surfboard.jpeg"/>
     </div>
+  </div>
+</div>
+
+
+<div class="container" ng-controller="HomepageController">
+  <div class="row" ng-show="vm.loggedIn">
+    <profile-card></profile-card>
+    <!-- <div class="col-md-6 central-content">
+      <div class="search-bar">
+        <input type="text" ng-model="vm.keywords">
+        <button type="button" name="search-btn"
+                ng-click="vm.search()">Search
+        </button>
+      </div>
+      <div class="newsfeed">
+        news feed crap
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <div class="advertisements">
+        hey i'm an advertisement
+      </div>
+    </div> -->
   </div>
 </div>
