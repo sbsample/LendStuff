@@ -6,10 +6,9 @@
 
 module.exports = (router) => {
 
-router.route("/")
-.get(function(res, req, next){
-  res.send('View All property')
-  // view all property
+router.route('/')
+.get(function(req, res, next){
+  res.send("List of all property")
 })
 
 router.get('/new', function(req, res){
@@ -37,6 +36,8 @@ router.get('/new', function(req, res){
   .delete(function(req, res, next){
 
   })
+
+
 
 /**
  * Return router so that it can be used by express.
