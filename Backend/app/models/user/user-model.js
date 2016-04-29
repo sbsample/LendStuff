@@ -1,5 +1,5 @@
 "use strict";
-var postgres = require('../../db/postgres/pg-client.js');
+
 
 class User {
   constructor(){
@@ -7,7 +7,7 @@ class User {
   }
 
   insert(newUser){
-    postgres('users').insert(newUser);
+
   }
 
   exists(params){
