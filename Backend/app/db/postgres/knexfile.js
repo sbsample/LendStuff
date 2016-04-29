@@ -1,43 +1,27 @@
 
 module.exports = {
 
-  development: {
+  test: {
     client: 'pg',
-    connection: {
-      database: 'bookstesting',
-      user:     'ellis',
-      password: 'password'
-    },
-    pool: {
-      min: 1,
-      max: 2
+    connection: 'postgres://localhost/bookstesting',
+    migrations: {
+      directory: __dirname + '/migrations'
     }
   },
 
-  staging: {
+  development: {
     client: 'pg',
-    connection: {
-      database: 'booksstaging',
-      user:     'ellis',
-      password: 'password'
-    },
-    pool: {
-      min: 2,
-      max: 10
+    connection: 'postgres://localhost/booksdev',
+    migrations: {
+      directory: __dirname + '/migrations'
     }
   },
 
   production: {
     client: 'pg',
-    connection: {
-      database: 'books',
-      user:     'ellis',
-      password: 'password'
-    },
-    pool: {
-      min: 2,
-      max: 10
+    connection: process.env.DATABASE_URL,
+    migrations: {
+      directory: __dirname + '/migrations'
     }
   }
-
 };
