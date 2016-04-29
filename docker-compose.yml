@@ -12,8 +12,10 @@ services:
      - .:/Backend
     depends_on:
      - redis
+     -pg
     links:
       - pg
+      -redis
     environment:
       - PGHOST=pg
       - PGDATABASE=postgres
