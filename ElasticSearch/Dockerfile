@@ -11,7 +11,7 @@ ADD . /home/Backend
 RUN \
   npm install
 
-EXPOSE 3040
+EXPOSE 5020
 
 # The command to run our app when the container is run.
 CMD ["npm", "start"]
