@@ -11,6 +11,8 @@ const port    = 3000;
  * Imported routes.
  */
 const users   = require('./app/controllers/users/user-ctrl.js')(express.Router());
+// const loans   = require('./app/controllers/loans/loan-ctrl.js')(express.Router());
+// const property = require('./app/controllers/property/property-ctrl.js')(express.Router());
 // const   = require('.app/controllers/')
 // const   = require('.app/controllers/')
 
@@ -18,7 +20,8 @@ const users   = require('./app/controllers/users/user-ctrl.js')(express.Router()
  * Mounted routes.
  */
 app.use('/users', users);
-
+// app.use('/loans', loans);
+// app.use('/property', property);
 /**
  * Server listening on variable port.
  */
